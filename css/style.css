@@ -1,14 +1,13 @@
-/* test */
+
 header {
     height: 70px;
-
-    background-color: blueviolet;
 }
 
 nav {
     width: 150px;
     height: calc(100vh - 70px);
-
+    
+    /* test */
     background-color: blue;
 }
 
@@ -16,5 +15,11 @@ main {
     height: calc(100vh - 70px);
     width: calc(100% - 150px);
 
+    /* test */
     background-color: aqua;
+}
+
+
+.my-mobile-logo {
+    max-height: 50px;
 }

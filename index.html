@@ -14,13 +14,33 @@
     <title>Dashboard</title>
 </head>
 <body>
-   <header>
+    <header class="d-flex align-items-center gap-3 px-2">
+       
+        <div class="my-logo">
 
-   </header>
+           <img class="img-fluid d-lg-inline-block d-md-inline-block d-sm-inline-block d-none" src="img/logo.svg" alt="">
+           <img class="my-mobile-logo img-fluid d-lg-none d-md-none d-sm-none d-block" src="img/mobile-logo.png" alt="">
+         
+        </div>
+       
+       <div class="my-search-bar d-flex flex-grow-1">
+
+           <input type="text" class="rounded-2 border border-0 bg-body-secondary py-2 px-3 w-100" placeholder="Prova a cercare: Lezioni di Laravel">
+          
+       </div>
+       
+        <div class="my-btn">
+            <button class="border border-0 bg-transparent d-lg-inline-block d-md-inline-block d-sm-inline-block d-none"><i class="bi bi-list-ul"></i></button>
+            <button class="border border-0 bg-transparent d-lg-inline-block d-md-inline-block d-sm-inline-block d-none"><i class="bi bi-question-circle-fill"></i></button>
+            <button class="border border-0 bg-transparent d-lg-inline-block d-md-inline-block d-sm-inline-block d-none"><i class="bi bi-three-dots-vertical"></i></button>
+            <button class="border border-0 bg-transparent"><i class="bi bi-bell-fill"></i></button>
+        </div>
+
+    </header>
     <div class="main-container d-flex">
         
         <nav>
-        
+
         </nav>
         
         <main>

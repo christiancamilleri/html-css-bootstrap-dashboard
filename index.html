@@ -14,34 +14,54 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <header class="d-flex align-items-center gap-3 px-2">
-       
-        <div class="my-logo">
-
-           <img class="img-fluid d-lg-inline-block d-md-inline-block d-sm-inline-block d-none" src="img/logo.svg" alt="">
-           <img class="my-mobile-logo img-fluid d-lg-none d-md-none d-sm-none d-block" src="img/mobile-logo.png" alt="">
-         
-        </div>
-       
-       <div class="my-search-bar d-flex flex-grow-1">
-
-           <input type="text" class="rounded-2 border border-0 bg-body-secondary py-2 px-3 w-100" placeholder="Prova a cercare: Lezioni di Laravel">
-          
-       </div>
-       
-        <div class="my-btn">
-            <button class="border border-0 bg-transparent d-lg-inline-block d-md-inline-block d-sm-inline-block d-none"><i class="bi bi-list-ul"></i></button>
-            <button class="border border-0 bg-transparent d-lg-inline-block d-md-inline-block d-sm-inline-block d-none"><i class="bi bi-question-circle-fill"></i></button>
-            <button class="border border-0 bg-transparent d-lg-inline-block d-md-inline-block d-sm-inline-block d-none"><i class="bi bi-three-dots-vertical"></i></button>
-            <button class="border border-0 bg-transparent"><i class="bi bi-bell-fill"></i></button>
-        </div>
-
-    </header>
-    <div class="main-container d-flex">
+    <!-- header -->
+        <header class="d-flex align-items-center gap-3 px-2">
         
-        <nav>
+            <div class="my-logo">
 
-        </nav>
+                <img class="img-fluid d-lg-inline-block d-md-inline-block d-sm-inline-block d-none" src="img/logo.svg" alt="">
+                <img class="my-mobile-logo img-fluid d-lg-none d-md-none d-sm-none d-block" src="img/mobile-logo.png" alt="">
+            
+            </div>
+        
+            <div class="my-search-bar d-flex flex-grow-1">
+
+                <input type="text" class="rounded-2 border border-0 bg-body-secondary py-2 px-3 w-100" placeholder="Prova a cercare: Lezioni di Laravel">
+                
+            </div>
+        
+            <div class="my-btn">
+                <button class="border border-0 bg-transparent d-lg-inline-block d-md-inline-block d-sm-inline-block d-none"><i class="bi bi-list-ul"></i></button>
+                <button class="border border-0 bg-transparent d-lg-inline-block d-md-inline-block d-sm-inline-block d-none"><i class="bi bi-question-circle-fill"></i></button>
+                <button class="border border-0 bg-transparent d-lg-inline-block d-md-inline-block d-sm-inline-block d-none"><i class="bi bi-three-dots-vertical"></i></button>
+                <button class="border border-0 bg-transparent"><i class="bi bi-bell-fill"></i></button>
+            </div>
+
+        </header>
+    <!-- /header -->
+
+    <div class="main-container d-flex">
+        <!-- nav -->
+            <nav class="px-3 py-4 text-white d-flex flex-column justify-content-between">
+                
+                <div>
+                    
+                    <ul class="list-unstyled">
+                        <li class="my-nav-hover"><i class="bi bi-house-door-fill px-1"></i> <span class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block">Home</span></li>
+                        <li class="py-1 my-nav-hover"><i class="bi bi-bar-chart-line-fill px-1"></i> <span class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block">Stats</span> </li>
+                        <li class="my-nav-hover"><i class="bi bi-reception-4 px-1"></i> <span class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block">Signals</span></li>
+                    </ul>
+
+                </div>
+
+                <div class="my-nav-hover">
+                    <span class="py-4 text-white">
+                        <i class="bi bi-gear-fill px-1"></i> <span class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block">Admin</span> 
+                    </span>
+                </div>
+
+            </nav>
+        <!-- /nav -->
         
         <main>
             

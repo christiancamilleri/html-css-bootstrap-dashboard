@@ -14,9 +14,6 @@ nav {
 main {
     height: calc(100vh - 70px);
     width: calc(100% - 150px);
-
-    /* test */
-    background-color: aqua;
 }
 
 
@@ -38,6 +35,9 @@ main {
     font-size: 0.6em;
 }
 
+.my-prossime-classi {
+    background-color: lightgrey;
+}
 
 
 @media screen and (max-width: 578px) {

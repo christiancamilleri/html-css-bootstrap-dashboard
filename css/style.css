@@ -35,8 +35,24 @@ main {
     font-size: 0.6em;
 }
 
+.bi-bell-fill {
+    color: orange;
+}
+
 .my-prossime-classi {
     background-color: lightgrey;
+}
+
+td  .my-img {
+    width: 30px;
+}
+
+tr :not(:first-child) {
+    width: 10%;
+}
+
+tr :last-child {
+    width: auto;
 }
 
 @media screen and (max-width: 767px ) {
@@ -67,6 +83,13 @@ main {
     .offcanvas.offcanvas-end {
         width: 100%;
     }
+
+    tr :not(:first-child) {
+    width: 20%;
+}
+    tr :last-child {
+        width: auto;
+}
 
 }
 

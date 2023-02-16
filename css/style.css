@@ -8,7 +8,9 @@ nav {
     height: calc(100vh - 70px);
     
     /* test */
-    background-color: #071f36;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    
 }
 
 main {
